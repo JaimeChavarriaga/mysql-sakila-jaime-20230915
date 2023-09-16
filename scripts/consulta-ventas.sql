@@ -42,7 +42,7 @@ ventas_por_tienda_por_mes as (
     from ventas_por_tienda_por_anno_mes
     group by store
 ),
--- 4. calcular las diferencias
+-- 4. calcular las diferencias 
 ventas_por_tienda_comparativa as (
     select 
         store,
